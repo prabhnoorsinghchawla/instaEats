@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700');
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+a.button1{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:auto;
+  border-radius:2px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  /* color:#000000;
+  background-color:#FFFFFF; */
+  text-align:center;
+  transition: all 0.2s;
+  width: 45%;
+  margin-left: 20px;
+  color: inherit;
+  }
+  a.button1:hover{
+    color:#FFFFFF;
+    background-color:#000000;
+  }
+
+  @media all and (max-width:30em){
+    a.button1{
+    display:block;
+    margin:0.4em auto;
+  }
+  }
+
+.bouncy{
+  animation:bouncy 5s infinite linear;
+  position:relative;
+  }
+
+@keyframes bouncy {
+  0%{top:0em}
+  40%{top:0em}
+  43%{top:-0.9em}
+  46%{top:0em}
+  48%{top:-0.4em}
+  50%{top:0em}
+  100%{top:0em;}
+  }
+
+.input {
+    width: 45%;
+    /* border-radius: 15px; */
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display:inline-block;
+    /* padding:0.35em 1.2em; */
+    border:0.1em solid #000000;
+    margin:auto;
+    margin-left: 30%;
+    border-radius:20px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    font-size: medium;
+    text-align: center;
+    color:#000000;
+    transition: all 0.2s;
+    height: 35px;
+}
+
+.corner {
+    position: relative;
+    margin: auto;
+    right: 30px;
+    top: 5px;
+    /* left: 148px; */
+    height: 20px;
+    width: 20px;
+    z-index: 12;
+    border-radius:20px;
+    border: none;
+    background-repeat: no-repeat;
+}
+
+.search {
+    position: relative;
+    /* margin: auto;
+    width: 50%; */
+    height: 30px;
+    margin-top: 30px;
+    /* margin-left: 40px; */
+}
+
+.grid {
+    margin-top: 10px;
+}
+
+.grid img{
+    /* float: left; */
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+
+
+.grid img {
+    margin: 5px;
+    padding: 5px;
+    border: none;
+}
+
+.title {
+  color: #2e2e2e;
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+footer {
+  padding: 1rem 0;
+  background: #f7f7f7;
+  text-align: center;
+}
