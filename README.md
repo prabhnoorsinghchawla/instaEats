@@ -15,3 +15,7 @@ node index.js
 ```
 ## Usage
 Search any food item or a location in the search bar and wait for the scrapper to do its magic
+[!picture of terminal](https://github.com/prabhnoorsinghchawla/instaEats/blob/master/scrape_terminal.png)
+
+## Demo
+[<img src="https://img.youtube.com/vi/iJLAaFplbw4/maxresdefault.jpg" width="50%">](https://youtu.be/iJLAaFplbw4)
