@@ -18,4 +18,4 @@ Search any food item or a location in the search bar and wait for the scrapper t
 [!picture of terminal](https://github.com/prabhnoorsinghchawla/instaEats/blob/master/scrape_terminal.png)
 
 ## Demo
-[<img src="https://img.youtube.com/vi/iJLAaFplbw4/maxresdefault.jpg" width="50%">](https://youtu.be/iJLAaFplbw4)
+[<img src="https://img.youtube.com/vi/iJLAaFplbw4/hqdefault.jpg" width="50%">](https://youtu.be/iJLAaFplbw4)
