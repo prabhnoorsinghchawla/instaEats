@@ -21,4 +21,5 @@ Search any food item or a location in the search bar and wait for the scrapper t
 
 ## Demo
 [old demo](https://youtu.be/iJLAaFplbw4)
+Click on the image to check out the demo:
 [<img src="https://img.youtube.com/vi/iJLAaFplbw4/hqdefault.jpg">](https://youtu.be/Z4ik4opOaMk)
