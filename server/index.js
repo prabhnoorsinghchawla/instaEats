@@ -1,4 +1,5 @@
-const Scrapy = require('./Scrapy.js')
+// const Scrapy = require('./Scrapy.js')
+const new_scaper = require('./new_scraper');
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -15,15 +16,18 @@ app.use(function(req,res,next) {
 
 
 app.get('/foods', async (req, res) => {
-    let scrapy = new Scrapy("food")
-    let data = await scrapy.start().catch(error => console.error(error))
+    // let scrapy = new Scrapy("food")
+    // let data = await scrapy.start().catch(error => console.error(error))
+    let data = await new_scaper.scrape("food");
     res.send(data);
 });
 
 app.post('/foods', async (req, res) => {
     console.log(req.body);
-    let scrapy = new Scrapy(req.body.query)
-    let data = await scrapy.start().catch(error => console.error(error))
+    // let scrapy = new Scrapy(req.body.query)
+    // let data = await scrapy.start().catch(error => console.error(error))
+    let data = await new_scaper.scrape(req.body.query);
+    // console.log(data);
     res.send(data);
 });
 

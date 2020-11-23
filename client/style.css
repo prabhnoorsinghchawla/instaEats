@@ -127,6 +127,46 @@ a.button1{
   font-family: 'Dancing Script', cursive;
 }
 
+.cards {
+  position: relative;
+  display: inline-block;
+}
+
+.location_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 10px;
+  padding: 10px;
+  background: rgba(224, 226, 240, 0.6);
+  color: #fff;
+  font-family:'Roboto',sans-serif;
+  font-weight:600;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.cards:hover .location_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.location_description {
+  transition: .2s;
+  transform: translateY(1em);
+}
+
+.cards:hover .location__description {
+  transform: translateY(0);
+}
 
 footer {
   padding: 1rem 0;
